@@ -1,0 +1,42 @@
+/* moje */
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    line-height: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.circle:hover {
+    background-color: white;
+    color: dodgerblue;
+    border: 10px dotted: dodgerblue;
+}
+
+
+/* prawidłowo */
+
+.circle-button {
+    text-decoration: none;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+    transition: all 0.4s; 
+}
+
+.circle-button:hover {
+    background-color: white;
+    color: aqua;
+}
